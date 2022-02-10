@@ -23,10 +23,11 @@ few HTML, CSS and JavaScript skills.
 ### Screenshot
 
 ![](./images/screenshot-desktop.png)
+![](./images/screencast.gif)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/newbpydev/03-order-summary-component-main)
+- Solution URL: [GitHub](https://github.com/newbpydev/50-projects-in-50-days-html-css-js/tree/master/01-expanding-cards)
 - Live Site URL: [Live Site](https://youthful-feynman-703bb0.netlify.app/)
 
 ## My process
@@ -39,19 +40,19 @@ few HTML, CSS and JavaScript skills.
 
 ### What I learned
 
-I have learned on this project that I should not be afraid of web design. When
-you can start to see the connection between the end goal and what you have been
-given you can see some connection and adapt. I used the paragraph size to help
-me get a general picture of the size that I needed to use for the rest of the document.
+I have learned on this project more about centering a page using flexbox and a
+little more about using Js to make the site more interactive.
 
 ```css
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+@media (max-width: 30em) {
+  .container {
+    width: 100vw;
+  }
 
-  min-width: max-content;
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
 }
 ```
 
@@ -62,13 +63,11 @@ it with the grid.
 
 ### Useful resources
 
-- [YouTube @media tutorial](https://www.youtube.com/watch?v=yyRtI1MIjhs&ab_channel=ThuNghiem) - This is an amazing article which helped me finally understanding the @media
-  for mobile and the importance of creating a more responsive site.
+- [MDN - flex property](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container..
 
 ## Author
 
 - Website - [Juan Gomez](https://www.newbpydev.com)
-- Frontend Mentor - [@newbpydev](https://www.frontendmentor.io/profile/newbpydev)
 - Twitter - [@Newb_PyDev](https://twitter.com/Newb_PyDev)
 
 ## Acknowledgments
