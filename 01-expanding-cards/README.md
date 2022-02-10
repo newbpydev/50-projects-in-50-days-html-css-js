@@ -28,7 +28,7 @@ few HTML, CSS and JavaScript skills.
 ### Links
 
 - Solution URL: [GitHub](https://github.com/newbpydev/50-projects-in-50-days-html-css-js/tree/master/01-expanding-cards)
-- Live Site URL: [Live Site](https://youthful-feynman-703bb0.netlify.app/)
+- Live Site URL: [Live Site](https://youthful-feynman-703bb0.netlify.app)
 
 ## My process
 
